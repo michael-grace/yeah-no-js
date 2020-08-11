@@ -18,7 +18,7 @@ var server = http.createServer(function(req, res) {
 
                 res.writeHead(200, { 'Content-Type': 'text/html' });
                 res.write(`
-                    <html style="text-align: center; font-family: Comic Sans, Arial; padding-top: 10em">
+                    <html style="text-align: center; font-family: Comic Sans MS, Arial; padding-top: 10em">
                     <!-- Michael Grace, August 2020, http://github.com/michael-grace -->
                     <h2> ` + NAME + ` has said ` + SAYING + ` </h2>
                     <h1>` + data + `</h1><h2> times. </h2>
